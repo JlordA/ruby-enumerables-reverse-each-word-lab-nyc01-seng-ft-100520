@@ -8,7 +8,7 @@ def reverse_each_word(sentance)
   #  reverse_sentance << word.reverse
   #end
   #reverse_sentance.join(" ")
-  sentance.split.map {|word| word.reverse}.join(" ")
+  sentance.split.collect {|word| word.reverse}.join(" ")
   #binding.pry
   #sentance.split.join(" ")
 end
