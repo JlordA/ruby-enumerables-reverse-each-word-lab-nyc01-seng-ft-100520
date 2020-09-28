@@ -9,6 +9,6 @@ def reverse_each_word(sentance)
   #end
   #reverse_sentance.join(" ")
   sentance.split.map {|word| word.reverse}
-  #binding.pry
+  binding.pry
   #sentance.split.join(" ")
 end
