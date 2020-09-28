@@ -1,5 +1,5 @@
 def reverse_each_word(sentance)
-  print sentance.split(" ")
+  reverse_sentance = sentance.split(" ")
   sentance.each do |word|
 
 
